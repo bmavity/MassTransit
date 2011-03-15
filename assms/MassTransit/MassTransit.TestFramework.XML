@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MassTransit.TestFramework</name>
+    </assembly>
+    <members>
+        <member name="T:MassTransit.TestFramework.GivenAttribute">
+            <summary>
+            Called once per scenario to establish the context
+            </summary>
+        </member>
+        <member name="T:MassTransit.TestFramework.ThenAttribute">
+            <summary>
+            Assert your expectations here
+            </summary>
+        </member>
+        <member name="T:MassTransit.TestFramework.WhenAttribute">
+            <summary>
+            Called once per scenario to perform the action
+            </summary>
+        </member>
+    </members>
+</doc>

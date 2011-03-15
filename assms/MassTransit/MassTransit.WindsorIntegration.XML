@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MassTransit.WindsorIntegration</name>
+    </assembly>
+    <members>
+        <member name="T:MassTransit.WindsorIntegration.MassTransitFacilityBase">
+            <summary>
+            Facility to simplify the use of MT
+            </summary>
+        </member>
+        <member name="M:MassTransit.WindsorIntegration.MassTransitFacilityBase.RegisterInMemorySubscriptionService">
+            <summary>
+            Registers the in-memory subscription service so that all buses created in the same
+            process share subscriptions
+            </summary>
+        </member>
+        <member name="M:MassTransit.WindsorIntegration.MassTransitFacilityBase.RegisterBusDependencies">
+            <summary>
+            Registers the types used by the service bus internally and as part of the container.
+            These are typically items that are not swapped based on the container implementation
+            </summary>
+        </member>
+    </members>
+</doc>
